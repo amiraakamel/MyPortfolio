@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amira Kamel - Portfolio Projects. Explore app designs, dashboards, and case studies.">
+  <title>Projects | Amira Kamel</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="Index.html" class="nav-logo">
+        <img src="Images/Frame 350.png" alt="Amira Kamel Logo">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Index.html#services">Services</a></li>
+        <li><a href="Index.html#about">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+      </ul>
+      <a href="Index.html#contact" class="nav-contact">Contact Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>My <span>Projects</span></h1>
+      <p>A curated collection of UI/UX case studies and design projects I've crafted with passion and precision.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS GRID -->
+  <section class="projects-page-section">
+    <div class="container">
+      <div class="project-filters animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="food">Food Design</button>
+        <button class="filter-btn" data-filter="app">App Design</button>
+        <button class="filter-btn" data-filter="sport">Sport related</button>
+      </div>
+      <div class="projects-page-grid">
+        <div class="project-detail-card animate-on-scroll" data-category="food">
+          <div class="project-detail-thumb">
+            <img src="Images/Frame 354.png" alt="Bakery App Design">
+          </div>
+          <div class="project-detail-info">
+            <h3>Bakery App Design</h3>
+            <p>A full-featured bakery and café ordering app — Sweet Crust — with product browsing, cart management, real-time delivery tracking, and user profiles. Built with warm, appetizing aesthetics.</p>
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">Mobile App</span>
+              <span class="project-tag">Food</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-detail-card animate-on-scroll" data-category="app">
+          <div class="project-detail-thumb">
+            <img src="Images/Frame 357.png" alt="VibeIT App Design">
+          </div>
+          <div class="project-detail-info">
+            <h3>VibeIT App Design</h3>
+            <p>A dark-themed fitness and wellness app with gamified progress tracking, personalized sports recommendations, and challenge features. Designed for an immersive user experience.</p>
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">Mobile App</span>
+              <span class="project-tag">Fitness</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-detail-card animate-on-scroll" data-category="sport">
+          <div class="project-detail-thumb">
+            <img src="Images/Frame 358.png" alt="Hawy Dashboard">
+          </div>
+          <div class="project-detail-info">
+            <h3>Hawy Dashboard Design</h3>
+            <p>A comprehensive sports performance analytics platform featuring real-time dashboards, video analysis tools, and player profile management. Designed in 3 days with 3 web screens.</p>
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">Dashboard</span>
+              <span class="project-tag">Analytics</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-detail-card animate-on-scroll" data-category="sport">
+          <div class="project-detail-thumb">
+            <img src="Images/Frame 359.png" alt="MatchPoint App">
+          </div>
+          <div class="project-detail-info">
+            <h3>MatchPoint App Design</h3>
+            <p>A sports field booking platform making it easy to find nearby courts, book sessions, and join teams. Supports football, padel, and tennis with a clean, accessible UI.</p>
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">Mobile App</span>
+              <span class="project-tag">Sports</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <img src="Images/Frame 354.png" alt="Logo">
+      </div>
+      <p>&copy; 2025 Amira Kamel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
